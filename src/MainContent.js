@@ -1,17 +1,9 @@
 import React from 'react';
-import './App.css';
-import './Card.css';
+import './Card.css'
 
-import Header from './Header';
-import MainContent from './MainContent';
-
-function App() {
-  return (
-    // // <div className="app">
-    //   {/* <Header /> */}
-    //   {/* <MainContent /> */}
-
-      <div className="container">
+const  MainContent = () => {
+    return (  
+        <div className="container">
             <div className="cards">
                 <div className="circle">
                     <h2>01</h2>
@@ -58,9 +50,7 @@ function App() {
                 </div>
             </div>
         </div>
-     
-    // </div>
-  );
+     );
 }
-
-export default App;
+ 
+export default  MainContent;
